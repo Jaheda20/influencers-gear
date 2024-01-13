@@ -71,3 +71,16 @@ nav li a{
     background-repeat: no-repeat;
     padding: 50px;
     }
+
+    /*ecommerce-sites styles  */
+    .ecommerce-sites>ul{
+        display: flex;
+        align-content: center;
+        justify-content: space-evenly;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    .ecommerce-sites li{
+        list-style: none;
+
+    }
