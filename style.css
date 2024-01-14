@@ -227,12 +227,46 @@ nav li a{
         /* background-color: darkcyan;
         border-radius: 50%;
         background-position: center center;
-     */
-
-        
-       
-
-       
-        
+     */ 
 
     }
+
+    @media screen and (max-width: 576px) {     
+        nav, nav>ul, .ecommerce-sites>ul {
+            flex-direction: column;
+        }
+        .banner, .feature{
+            flex-direction: column-reverse;
+        }
+
+        .banner-image{
+            max-width: 200vw;
+            max-height: 200vh;
+            margin-left: 0px;
+            padding: 0;   
+        }
+        .ecommerce-sites{
+            border-top: none;
+            border-bottom: none;
+        }
+        
+        .product-collection{
+            grid-template-columns: 1fr;
+        }
+        .seemore p{
+            padding-left: 100px;
+            font-size: 0.7rem;  
+            padding-bottom: 20px;
+
+        }
+        .feature{
+            margin-right: 20px;
+            margin-left: 20px;
+            text-align: center;
+            gap: 30px;
+        }
+        
+        
+
+
+}
